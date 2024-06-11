@@ -1,0 +1,42 @@
+[
+	{
+		"name": "encounter_01",
+		"image": "resources/images/encounter/encounter_0.png",
+		"choices": [
+			{
+				"text": "싸운다.",
+				"result": {
+					"type": "strength",
+					"amount": 1
+				}
+			},
+			{
+				"text": "도망간다.",
+				"result": {
+					"type": "speed",
+					"amount": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "encounter_02",
+		"image": "resources/images/encounter/encounter_0.png",
+		"choices": [
+			{
+				"text": "잘 싸운다.",
+				"result": {
+					"type": "strength",
+					"amount": 2
+				}
+			},
+			{
+				"text": "잘 도망간다.",
+				"result": {
+					"type": "speed",
+					"amount": 2
+				}
+			}
+		]
+	}
+]
